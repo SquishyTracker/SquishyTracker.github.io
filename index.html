@@ -1,33 +1,71 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SquishyTracker</title>
-    <style>
-        /* Simple CSS styling */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
-            background-color: #f9f9f9;
-        }
-        h1 {
-            color: #2c3e50;
-        }
-        table {
-            border-collapse: collapse;
-            width: 50%;
-        }
-        table, th, td {
-            border: 1px solid #333;
-        }
-        th, td {
-            padding: 8px;
-            text-align: left;
-        }
-    </style>
+    <title>Squishy Tracker</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-    <h1>Squishie Tracker</h1>
-    <p>The greatest site designed to capture and store limited supply product inventory from your neighboring stores </p>
+<div class="app">
+
+    <!-- Sidebar -->
+    <nav class="sidebar">
+        <h2>🟣 Squishy Tracker</h2>
+
+        <a href="index.html">🏠 Home</a>
+        <a href="find.html">🔍 Find</a>
+        <a href="report.html">➕ Report</a>
+        <a href="alerts.html">🔔 Alerts</a>
+        <a href="profile.html">👤 Profile</a>
+    </nav>
+
+
+    <!-- Main Content -->
+    <main class="content">
+
+        <h1>Find Squishies Before They're Gone</h1>
+
+        <p>
+            A community-powered tracker helping people find
+            available squishies near them.
+        </p>
+
+
+        <div class="card">
+            <h3>🟢 Recent Sightings</h3>
+
+            <div class="report">
+                <strong>Target</strong>
+                <p>Hello Kitty Squishy</p>
+                <span class="green">In Stock</span>
+                <small>Reported 12 minutes ago</small>
+            </div>
+
+
+            <div class="report">
+                <strong>Claire's</strong>
+                <p>Axolotl Squishy</p>
+                <span class="yellow">Low Stock</span>
+                <small>Reported 45 minutes ago</small>
+            </div>
+
+        </div>
+
+    </main>
+
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+        <a href="index.html">🏠</a>
+        <a href="find.html">🔍</a>
+        <a href="report.html">➕</a>
+        <a href="alerts.html">🔔</a>
+        <a href="profile.html">👤</a>
+    </nav>
+
+
+</div>
+
+</body>
+</html>
