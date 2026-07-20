@@ -1,2 +1,0 @@
-# SquishyTracker.github.io
-SquishyWebsite
